@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>GatewayClient</Title>
+        <Authors>Benjamin Evenson</Authors>
+        <Description>A simple httpclient implementation of the Tesla Gateway 2 api</Description>
+        <PackageProjectUrl>https://github.com/benjiro/GatewayClient</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/benjiro/GatewayClient/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/benjiro/GatewayClient</RepositoryUrl>
+        <Nullable>disable</Nullable>
+        <Version>1.0.0</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.Text.Json" Version="4.7.2" />
+    </ItemGroup>
+
+</Project>
